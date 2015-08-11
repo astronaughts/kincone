@@ -1,11 +1,4 @@
-# kincone
-
-This library is Kincone scraping client.
-
-## Example
-
-```javascript
-var Kincone = require("kincone");
+var Kincone = require("./lib/Kincone");
 
 // 認証情報
 var auth = {
@@ -37,4 +30,3 @@ attendance.list(function (list) {
 attendance.list(2015, 7, function (list) {
     console.log(list);
 });
-```
